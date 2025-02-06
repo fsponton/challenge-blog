@@ -1,0 +1,41 @@
+.dark-toast-container {
+    font-family: Arial, sans-serif;
+}
+
+
+.dark-toast {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    border: 1px solid #374151;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+}
+
+.dark-progress {
+    background-color: #10b981;
+}
+
+
+.custom-close-button {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    color: red;
+    border: none;
+    cursor: pointer;
+}
+
+.custom-close-button:hover {
+    background-color: #f3f4f6;
+    color: #b91c1c;
+}
