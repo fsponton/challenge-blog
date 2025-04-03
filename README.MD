@@ -1,6 +1,50 @@
-# Blog Univeral
+# Consignas
+# **Aplicación de Blog Personal**
 
-### Es un Blog donde todos pueden crearse una cuenta con nombre, email y password y hacer posteos.
+### **Descripción**
+
+Crear un blog personal donde los usuarios puedan:
+
+- Ver publicaciones.
+- Registrarse e iniciar sesión.
+- Crear, editar y eliminar sus propias publicaciones.
+- Buscar publicaciones por título o contenido.
+
+---
+
+### **Requisitos Técnicos**
+
+### **Backend**
+
+1. **Tecnologías**:
+    - Node.js y Express para la API REST
+    - MySQL como base de datos.
+    - Autenticación con JWT (JSON Web Tokens) o la herramienta que prefiera el desarrollador (por ejemplo, Passport.js).
+2. **Validaciones**:
+    - Validar campos en el registro e inicio de sesión (email válido, contraseña segura, etc.).
+    - Validar que solo el autor pueda editar o eliminar una publicación.
+
+---
+
+### **Frontend**
+
+1. **Tecnologías**:
+    - Next.js o React para la interfaz.
+    - Tailwind CSS para el diseño.
+    - Axios o Fetch para consumir la API.
+2. **Diseño**:
+    - Diseño responsive usando Tailwind CSS.
+    - Estilos modernos.
+    - Indicadores visuales para acciones (por ejemplo, carga, éxito, error).
+3. **Extras**:
+    - **Paginación o Carga Infinita**: Implementar una de las dos opciones para la lista de publicaciones.
+    - **Búsqueda**: Barra de búsqueda funcional que filtre las publicaciones en tiempo real.
+    - **Validaciones en el Frontend**: Validar formularios antes de enviar datos al backend.
+
+################################################################################################################################################
+# Poner en funcionamiento:
+
+### Descripcion: Un Blog donde todos pueden crearse una cuenta con nombre, email y password y hacer posteos.
 
 ##### Cuando un usuario esta logueado en el blog, puede visualizar todos los Posts que tiene el blog pero solo puede editar/borrar los suyos.
 
